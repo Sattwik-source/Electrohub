@@ -1,17 +1,21 @@
 'use client';
 
-import Navbar from '@/components/Navbar';
-import HeroNew from '@/components/sections/HeroNew';
-import ProductsSection from '@/components/sections/ProductsSection';
-import CategoriesNew from '@/components/sections/CategoriesNew';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Featured from '@/components/Featured';
+import Categories from '@/components/Categories';
+import Features from '@/components/Features';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="bg-black text-white min-h-screen">
-      <Navbar />
-      <HeroNew />
-      <ProductsSection />
-      <CategoriesNew />
+    <div className="bg-black">
+      <Header />
+      <Hero />
+      <Featured />
+      <Categories />
+      <Features />
+      <Footer />
     </div>
   );
 }
